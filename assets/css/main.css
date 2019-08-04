@@ -109,6 +109,17 @@ a.btn:hover {
 	text-decoration: none !important;
 }
 
+.modal-header {
+	position: relative;
+	justify-content: center !important;
+}
+
+.pa {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
 /* Basic */
 
 	html {
