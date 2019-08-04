@@ -569,4 +569,25 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
-/*# sourceMappingURL=custom.css.map */
+/* Modal Fix */
+
+.modal { 
+  position: fixed; 
+  top: 3%; 
+  right: 3%; 
+  left: 3%; 
+  width: auto; 
+  margin: 0; 
+}
+.modal-body { 
+  height: 60%; 
+}
+
+@media (max-width: 736px) {
+  .modal-body { 
+    max-height: 350px; 
+    padding: 15px; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+}

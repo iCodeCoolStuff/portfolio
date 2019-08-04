@@ -2331,11 +2331,10 @@ a.btn:hover {
 
 		/* Button */
 
-			input[type="button"],
 			input[type="submit"],
 			input[type="reset"],
-			button,
-			.button {
+			.btn-success,
+			.btn-dark {
 				text-align: center;
 				font-size: 1.2em;
 				width: 100%;
